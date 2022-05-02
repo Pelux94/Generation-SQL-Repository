@@ -1,7 +1,5 @@
 # Generation-SQL-Repository
-SQL Repository Generation Test
 
-
-File di prova
+File readme.md di prova per il corso Java di Generation
 
 Stringa di testo aggiunta
