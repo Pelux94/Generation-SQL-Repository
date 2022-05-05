@@ -1,4 +1,4 @@
-select s.nazione, count(*)/count(s.anno) as Media
-from Scalatore sc join Scalata s on sc.cf = s.scalatore
-where sc.nazioneNascita != s.nazione
-group by s.nazione
+select scalata.nazione, count(*)/count(scalata.anno) as ScalatePerNazioneMedia
+from Scalatore join Scalata on scalatore.cf = Scalata.scalatore
+where scalatore.nazioneNascita != scalata.nazione
+group by scalata.nazione
